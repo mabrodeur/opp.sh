@@ -10,7 +10,7 @@ will create the following structure if not already existing:
  |--> code/
  |--> data/
 ```
-and `projetName.pde` containing header comments, setup() and draw functions.
+and `projetName.pde` containing header comments, setup and draw functions.
 Then it will open all the .pde files in this project.
 
 ### Structure
