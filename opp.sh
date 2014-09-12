@@ -46,4 +46,8 @@ fi
 
 fi
 
+if [ type "$1" &> /dev/null ]; then
 open *.pde
+else 
+subl . *.pde
+fi
