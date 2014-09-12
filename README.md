@@ -1,6 +1,5 @@
 # opp.sh
 ## Easily create a Processing project
----
 
 ### Usage
 ```./opp.sh projectName```
