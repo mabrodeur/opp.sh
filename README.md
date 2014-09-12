@@ -11,8 +11,10 @@ will create the following structure if not already existing:
  |--> data/
 ```
 and `projetName.pde` containing header comments, setup and draw functions.
+
 Then it will open all the .pde files in this project.
 
 ### Structure
-Put your vendor libraires in the `code/` folder
-Assets (images, etc.) goes into the `data/` folder
+Put your vendor libraires in the `code/` folder.
+
+Assets (images, etc.) goes into the `data/` folder.
