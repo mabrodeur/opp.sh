@@ -42,6 +42,7 @@ EOL
 echo "Grabbing .gitignore for Processing..."
 wget -q "https://raw.githubusercontent.com/github/gitignore/master/Processing.gitignore"
 mv Processing.gitignore .gitignore
+echo "build-tmp/" >>.gitignore
 echo "Done."
 
 git init
