@@ -39,6 +39,13 @@ void draw() {
 }
 EOL
 
+echo "Grabbing .gitignore for Processing..."
+wget -q "https://raw.githubusercontent.com/github/gitignore/master/Processing.gitignore"
+mv Processing.gitignore .gitignore
+echo "Done."
+
+git init
+
 else
 cd $sketchname
 
