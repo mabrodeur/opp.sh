@@ -16,7 +16,9 @@ NOW=$(date +"%d-%m-%Y")
 mkdir $sketchname
 cd $sketchname
 mkdir "data"
+touch "data/.keep" 
 mkdir "code"
+touch "code/.keep"
 
 cat > ${PWD##*/}.pde <<EOL
 /**
